@@ -1,0 +1,64 @@
+{
+	"memberdetails":
+	{
+		"name":"Viay Amirtharaj",
+	"designation":"CEO",
+	"location":"Chennai",
+	"fullname":"Vijay Amirtharaj Xavier",
+	"email":"vijayamirtharajxavier@gmail.com",
+	"mobile":"+91-7010246798",
+	"address":"No.49/79 Kathiravan Colony, Shenoy Nagar, Chennai 600 030.",
+	"finyear":[
+		{
+		"fyear":"2020-21"
+		},
+		{
+		"fyear":"2019-20"
+		}
+],
+
+	 "ledgerdetails":[{
+	 	"date":"2020-04-01","refid":"1234","rcpt_thrift":1500.00,
+	 	"pyt_thrift":0.00,
+	 	"thrift_total":1500.00,
+	 	"rcpt_shares":2000.00,
+	 	"pyt_shares":1000.00,
+	 	"share_total":1000.00,
+	 	"principle":13250.00,
+	 	"interest": 3250.00,
+	 	"insurance":4200.00,
+	 	"loan_issued":0.00,
+	 	"loan_outstanding":5201.00
+	 },
+	 {
+	 	"date":"2020-04-15","refid":"1234","rcpt_thrift":1500.00,
+	 	"pyt_thrift":0.00,
+	 	"thrift_total":1500.00,
+	 	"rcpt_shares":2000.00,
+	 	"pyt_shares":1000.00,
+	 	"share_total":1000.00,
+	 	"principle":13250.00,
+	 	"interest": 3250.00,
+	 	"insurance":4200.00,
+	 	"loan_issued":1000000.00,
+	 	"loan_outstanding":995201.00
+	 },
+{
+	 	"date":"2020-05-01","refid":"1234","rcpt_thrift":1500.00,
+	 	"pyt_thrift":0.00,
+	 	"thrift_total":1500.00,
+	 	"rcpt_shares":2000.00,
+	 	"pyt_shares":1000.00,
+	 	"share_total":1000.00,
+	 	"principle":13250.00,
+	 	"interest": 3250.00,
+	 	"insurance":4200.00,
+	 	"loan_issued":1000000.00,
+	 	"loan_outstanding":985201.00
+	 }
+	]
+
+
+
+}
+}

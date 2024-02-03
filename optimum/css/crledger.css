@@ -1,0 +1,67 @@
+#tophead{
+  visibility: hidden; 
+}  
+@media print
+{
+body * { visibility: hidden; }
+#printable * { visibility: visible; }
+#printable { position: absolute; top: 40px; left: 30px; 
+font-size: 12px;
+
+}
+#tophead
+{
+  font-size: 25px;
+  font-weight: bold;
+}
+#printable table th { border: 1px solid black; padding: 2px; 
+font-size: 15px;
+font-weight: bold;
+
+}
+#printable table td, table th { border: 1px solid black; padding: 2px;
+
+font-size: 15px;
+ }
+}
+#crldgrep {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  overflow-x: auto;
+}
+
+#crldgrep td, #crldgrep th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#crldgrep tr:nth-child(even){background-color: #f2f2f2;}
+
+#crldgrep tr:hover {background-color: #ddd;}
+
+#crldgrep th {
+  /*padding-top: 12px;
+  padding-bottom: 12px; */
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+
+  }
+
+tbody {
+    
+
+    overflow: auto;
+}
+#flashContent {
+
+  position: absolute;
+  left: 200px;
+  bottom: 200px;
+  z-index: 2;
+
+  width:400px; 
+  height:400px; 
+  background-color:red;
+}

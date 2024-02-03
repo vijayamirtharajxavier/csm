@@ -1,0 +1,33 @@
+<?php 
+/**
+ * 
+ */
+class Excel_import_model extends CI_Model
+{
+	
+function selectdata()
+{
+	$this->db->order_by('journal_number','DESC');
+	$query = $this->db->get('soc_journalentry_tbl');
+	return $query;
+}
+
+
+ function select()
+ {
+  $this->db->order_by('member_id', 'ASC');
+  $query = $this->db->get('soc_members_tbl');
+  return $query;
+ }
+
+
+
+
+
+
+
+
+
+}
+
+?>
